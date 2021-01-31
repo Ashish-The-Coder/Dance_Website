@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts
+    script(src='../static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block head
+    div.welcome
+            div#logo
+                a(href="", target="_blank", rel="noopener noreferrer")
+                    img(src="../static/logo_main.png", alt="Ashish Dance Academy") 
+                    span#ada ADA
+            span#head WELCOME TO OUR DANCE ACADEMY
+
+block content
+    section#picture
+    section#mission
+        h2 Our Missions
+        div.card
+            h3 Tell People in what they are good.
+            div.card-box
+                div.img-box
+                    img(src="../static/1.png", alt="Dance Image")
+                div.card-content
+                    p Everyone has a talent inside them, we show them their talent.
+        div.card
+            h3 Help People to Dance as they want.
+            div.card-box
+                div.img-box
+                    img(src="../static/2.png", alt="Dance Image")
+                div.card-content
+                    p Everyone has a talent inside them, we show them their talent.
+        div.card
+            h3 Provide the best teachers at low cost.
+            div.card-box
+                div.img-box
+                    img(src="../static/3.png", alt="Dance Image")
+                div.card-content
+                    p Everyone has a talent inside them, we show them their talent.
+    section#sponsorsec
+        h2 Our Sponsors
+        div#sponsors
+            a(href="http://horlicks.in", target="_blank", rel="noopener noreferrer")
+                img( class="spoimg" src="../static/s1.png", alt="Horlicks")
+                
+            a(href="http://www.dabur.com", target="_blank", rel="noopener noreferrer")
+                img( id="dabur" class="spoimg" src="../static/s2.png", alt="Dabur")
+                
+            a(href="http://www.boostenergy.com", target="_blank", rel="noopener noreferrer")   
+                img( class="spoimg" src="../static/s3.png", alt="Boost")

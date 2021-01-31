@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&Yusei+Magic&Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul li a {
+    font-family: 'Yusei Magic', sans-serif;
+    text-decoration: none;
+    padding: 12px 35px;
+    color: #ecfaff;
+}
+
+nav ul li a:hover {
+    color: #3a3535;
+}
+
+nav ul li {
+    padding: 12px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+#lastli{
+    margin-right: 3cm;
+
+}
+
+ul {
+    background-color: #ce6060;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#picture {
+    background: url('../static/Background.jpg') no-repeat center/cover;
+    height: 620px;
+    width: 100%;
+}
+.welcome {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(241, 89, 89);
+    background-color: #3a3535;
+    text-shadow: 7px 6px 7px #ff0000;
+    height: 103px;
+}
+#head{
+    right: 145px;
+    position: absolute;
+    top: 10px;
+}
+#logo, #ada{
+    position: absolute;
+    color: white;
+    left: 112px;
+    top: 12px;
+    font-size: 20px;
+}
+#ada{
+    text-shadow: none;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 57px;
+    left: 63px;
+}
+#logo img{
+    height: 80px;
+    filter: invert();
+}
+
+
+#mission{
+    background-color:#ffdada;
+    height: 365px;
+}
+#mission h2, #sponsorsec h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    padding-top: 25px;
+    text-align: center;
+}
+#mission .card{
+    display: inline-block;
+    border: 3px solid #b31414;
+    border-radius: 12px;
+    width: 29.924%;
+    height: 250px;
+    margin: 15px 20px;
+}
+.card h3{
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-box{
+    height: 104px;
+    margin-top: 45px;
+}
+.img-box img{
+    height: inherit;
+}
+.card-content p{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+#sponsorsec{
+    background-color: #c7b5b5;
+    height: 335px;
+}
+#sponsors{
+    height: 120px;
+}
+.spoimg{
+    border: 5px solid #696060;
+    padding: 15px 20px;
+    border-radius: 10px;
+    height: 106px;
+    margin: 71px 61px;
+    margin-bottom: 0px;
+}
+#dabur{
+    padding: 15px 40px;
+}
+#footer{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    background-color: #000000;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+}
+#blogs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: 63px;
+}
